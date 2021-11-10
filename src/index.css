@@ -1,0 +1,38 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+}
+body{
+  background-color: deepskyblue;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.box-add{
+  display: flex;
+  padding: 1rem;
+}
+.button-add{
+  width: 7.75vw;
+  background-color:lightskyblue;
+  border: none;
+  margin: 0 0 0 1em;
+}
+input{
+  height: 3vh;
+}
+.button-x{
+  width: 3.5vw;
+  background-color: yellowgreen;
+  margin: 0 12em 0 0;
+  border: none;
+}
