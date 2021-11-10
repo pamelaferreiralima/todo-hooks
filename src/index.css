@@ -29,6 +29,7 @@ form{
 }
 input{
   height: 3vh;
+  border: none;
 }
 .button-x{
   width: 3.5vw;

@@ -8,7 +8,6 @@ function Todo (){
   const [task,setTask] = useState("");
   const [listTask, setlistTask] = useState([]);
   const [pokePoke, setpokePoke] = useState(null)
-  const [msg, setmsg] = useState(null)
 
   const getData = async () => {
     const poke = await axios.get("https://pokeapi.co/api/v2/pokemon/ditto")
@@ -59,7 +58,7 @@ return(
     </div> 
       <ul>
       {listTask.map((item) => (
-        <li><button className="button-x" onClick={(ev) => removeTask (item.id,ev)}>X</button>{item.task}</li>
+        <li><button className="button-add" onClick={(ev) => removeTask (item.id,ev)}>X</button>{item.task}</li>
         ))} 
       </ul>
       <div>
